@@ -209,6 +209,7 @@
 				width: 22%;
 				margin: 0 2.5% 5% 0;
 				padding: 0em 0.50em;
+                vertical-align: top;
 			}
 
 		ul.default
@@ -270,8 +271,8 @@
 
 		ul.social
 		{
-			margin: 3em 0em;
-			padding: 2em 0em;
+			margin: 0em;
+			padding: 3em 0 2em;
 			box-shadow: 0px 1px 0px rgba(255,255,255,.1), 0px -1px 0px rgba(255,255,255,.1);
 			text-align: center;
 		}
@@ -279,7 +280,7 @@
 			ul.social li
 			{
 				display: inline-block;
-				padding: 0px 3px;
+				padding: 0px 6px;
 			}
 			
 			ul.social .icon
@@ -832,6 +833,12 @@
 				font-size: 1.5em;
 				font-weight: 100;
 			}
+                #banner header .byline strong
+                {
+                    display: block;
+                    margin-bottom: 0.5em;
+                    color: #FFFFFF;
+                }
 			
 		#banner p
 		{
@@ -1033,7 +1040,7 @@
 	#footer
 	{
 		position: relative;
-		padding: 5em 0em 4em 0em;
+		padding: 0em 0em 4em 0em;
 	}
 	
 		#footer header
