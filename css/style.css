@@ -956,7 +956,6 @@
 		position: relative;
 		padding: 5em 0em 4em 0em;
 		background: #7C9CD0;
-		text-align: center;
 		color: #FFF;
 	}
 	
@@ -980,7 +979,13 @@
 		{
 			padding: 0em 3em;
 		}
-		
+
+#venue
+{
+    float: left;
+    margin-right: 4em;
+}
+
 /*********************************************************************************/
 /* Staff                                                                         */
 /*********************************************************************************/
