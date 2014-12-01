@@ -1,47 +1,4 @@
-<!DOCTYPE HTML>
-
-<html>
-	<head>
-        <title>PHP South Coast Conference 2015</title>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="description" content="" />
-		<meta name="keywords" content="" />
-		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
-		<script src="js/jquery.min.js"></script>
-		<script src="js/jquery.dropotron.min.js"></script>
-		<script src="js/skel.min.js"></script>
-		<script src="js/skel-layers.min.js"></script>
-		<script src="js/init.js"></script>
-		<noscript>
-			<link rel="stylesheet" href="css/skel.css" />
-			<link rel="stylesheet" href="css/style.css" />
-			<link rel="stylesheet" href="css/style-wide.css" />
-		</noscript>
-		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
-	</head>
-	<body class="homepage">
-
-		<!-- Header -->
-			<div id="header">
-				<div>
-						
-					<!-- Logo -->
-						<div id="logo">
-							<h1><a href="index.html">PHP South Coast</a></h1>
-						</div>
-					
-					<!-- Nav -->
-						<nav id="nav">
-							<ul>
-								<li class="current_page_item"><a href="index.html">Home</a></li>
-								<li><a href="call-for-papers.html">Call for Papers</a></li>
-								<li><a href="sponsors.html">Sponsors</a></li>
-								<li><a href="code-of-conduct.html">Code of Conduct</a></li>
-							</ul>
-						</nav>
-
-				</div>
-			</div>
+{% include header.html %}
 			
 		<!-- Banner -->
 			<div id="banner">
@@ -123,25 +80,4 @@
 				</div>
 			</div>
 
-		<!-- Footer -->
-			<section id="footer">
-				<div class="container">
-
-                    <!-- Social -->
-					<section>
-						<ul class="social">
-							<li><a href="https://www.facebook.com/events/1515839875358660/" class="icon fa-facebook"><span>Facebook</span></a></li>
-							<li><a href="https://twitter.com/phpsouthcoast" class="icon fa-twitter"><span>Twitter</span></a></li>
-						</ul>
-					</section>
-						
-					<!-- Copyright -->
-					<div class="copyright">
-						&copy; PHP South Coast conference. This website is on <a href="https://github.com/phphants/php-south-coast-2015">GitHub</a>
-					</div>
-
-				</div>
-			</section>
-
-	</body>
-</html>
+{% include footer.html %}
