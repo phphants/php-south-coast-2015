@@ -14,7 +14,7 @@
 
 	body
 	{
-		background: #333131;
+		background: #43485e;
 	}
 
 	body,input,textarea,select
@@ -300,11 +300,11 @@
 				width: 40px;
 				height: 40px;
 				padding-top: 2px;
-				background: #7C9CD0;
+				background: #ffcf06;
 				border-radius: 50%;
 				line-height: 40px;
 				text-align: center;
-				color: #333131;
+				color: #43485e;
 			}
 
 		ul.icons
@@ -959,8 +959,8 @@
 	{
 		position: relative;
 		padding: 5em 0em 4em 0em;
-		background: #7C9CD0;
-		color: #FFF;
+		background: #43485e;
+		color: #ffcf06;
 	}
 	
 		#intro p
@@ -976,7 +976,7 @@
 	
 			#intro header h2
 			{
-				color: #FFF;
+				color: #ffcf06;
 			}
 
 		#intro .content
