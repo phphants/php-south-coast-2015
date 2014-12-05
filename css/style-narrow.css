@@ -75,3 +75,8 @@
 		{
 			padding-left: 0.70em;
 		}
+
+        #logo a img
+        {
+            height: 30px;
+        }

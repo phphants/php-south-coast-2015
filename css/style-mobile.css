@@ -236,6 +236,11 @@
 		top: 0em;
 		margin: 1.15em 0 1.15em 0;
 	}
+
+    #logo a img
+    {
+        height: 15px;
+    }
 	
 	#nav
 	{
