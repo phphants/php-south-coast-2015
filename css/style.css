@@ -804,7 +804,7 @@
 	#banner
 	{
 		position: relative;
-		padding: 10em 0 9em 0;
+		padding: 3em 0 1em 0;
 		background: #333 url(../images/venue-blurry-bg.jpeg) no-repeat center;
 		background-size: cover;
 		text-align: center;
@@ -826,7 +826,11 @@
 		{
 			position: relative;
 			z-index: 1;
-			margin-bottom: 2em;
+			padding: 1em 0;
+			background-color: rgba(255,255,255,0.6);
+			-webkit-border-radius: 15px;
+			-moz-border-radius: 15px;
+			border-radius: 15px;
 		}
 	
 			#banner header h2
@@ -841,12 +845,13 @@
 				margin-top: 0.50em;
 				font-size: 1.5em;
 				font-weight: 100;
+				color: #43485e;
 			}
                 #banner header .byline strong
                 {
                     display: block;
                     margin-bottom: 0.5em;
-                    color: #FFFFFF;
+                    color: #43485e;
                 }
 			
 		#banner p
@@ -864,6 +869,7 @@
 		
 		#banner .container
 		{
+			width: 500px;
 		}
 
 /*********************************************************************************/
