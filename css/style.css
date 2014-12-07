@@ -1090,3 +1090,34 @@
 		padding: 1em 0em;
 		text-align: center;
 	}
+
+/*********************************************************************************/
+/* Pages                                                                         */
+/*********************************************************************************/
+body.sponsors #intro
+{
+	text-align: center;
+}
+body.sponsors .platinum
+{
+	background-color: #E5E4E2;
+	padding: 5em 0 4em 0;
+}
+body.sponsors .gold
+{
+	background-color: #D4AF37;
+	padding: 5em 0 4em 0;
+	color: white;
+}
+body.sponsors .silver
+{
+	background-color: #C0C0C0;
+	padding: 5em 0 4em 0;
+	color: white;
+}
+body.sponsors .bronze
+{
+	background-color: #CD7F32;
+	padding: 5em 0 4em 0;
+	color: white;
+}
