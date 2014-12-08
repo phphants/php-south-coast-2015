@@ -29,7 +29,7 @@
 	h1,h2,h3,h4,h5,h6
 	{
 		font-weight: 300;
-		color: #333131;
+		color: #43485E;
 	}
 	
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a
@@ -41,7 +41,7 @@
 	strong, b
 	{
 		font-weight: 400;
-		color: #333131;
+		color: #43485E;
 	}
 	
 	em, i
@@ -95,7 +95,7 @@
 		{
 			font-weight: 300;
 			font-size: 2.3em;
-			color: #333131;
+			color: #43485E;
 		}
 	
 		header .byline
@@ -550,12 +550,12 @@
 				padding: 0.50em 2em 0.50em 2em;
 				border-radius: 5px;
 				border-color: rgba(0,0,0,.1);
-				color: #333131 !important;
+				color: #43485E !important;
 			}
 
 				.button.alt:hover
 				{
-					background: #333131;
+					background: #43485E;
 					color: #FFF !important;
 				}
 				
@@ -735,7 +735,7 @@
 		text-align: left;
 		line-height: 2em;
 		min-width: 13em;
-		background: #333131;
+		background: #43485E;
 		line-height: 1em;
 		padding: 0.85em;
 		border-radius: 8px;
