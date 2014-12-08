@@ -700,7 +700,7 @@
 					letter-spacing: 0.06em;
 					text-decoration: none;
 					font-weight: 300;
-					font-size: 0.80em;
+					font-size: 0.90em;
 					outline: 0;
 					color: #ccc;
 					border-radius: 5px;
@@ -960,8 +960,8 @@
 	{
 		position: relative;
 		padding: 5em 0em 4em 0em;
-		background: #43485e;
-		color: #ffcf06;
+		background: #FFFFFF;
+		color: #43485E;
 	}
 	
 		#intro p
@@ -973,11 +973,13 @@
 
 		#intro header
 		{
+            margin-bottom: 1em;
 		}
 	
 			#intro header h2
 			{
-				color: #ffcf06;
+				color: #43485E;
+                font-weight: 400;
 			}
 
 		#intro .content
