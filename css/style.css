@@ -804,7 +804,7 @@
 	#banner
 	{
 		position: relative;
-		padding: 4em 0 4em 0;
+		padding: 9em 0 8em 0;
 		background: #333 url(../images/stones.jpg) no-repeat center;
 		background-size: cover;
 		text-align: center;
@@ -827,7 +827,6 @@
 			position: relative;
 			z-index: 1;
 			padding: 1em 0;
-			background-color: rgba(255,255,255,0.7);
 		}
 	
 			#banner header h2
@@ -842,7 +841,6 @@
 				margin-top: 0.50em;
 				font-size: 1.5em;
 				font-weight: 100;
-				color: #43485e;
 			}
                 #banner header .byline strong
                 {
@@ -862,11 +860,6 @@
 		{
 			position: relative;
 			z-index: 1;
-		}
-		
-		#banner .container
-		{
-			width: 500px;
 		}
 
 /*********************************************************************************/
