@@ -956,13 +956,19 @@
 /* Intro                                                                         */
 /*********************************************************************************/
 
-	#intro
+	.homepage #intro
 	{
-		position: relative;
-		padding: 5em 0em 4em 0em;
 		background: #FFFFFF;
 		color: #43485E;
 	}
+
+    #intro
+    {
+        position: relative;
+        padding: 5em 0em 4em 0em;
+        background: #43485e;
+        color: #ffcf06;
+    }
 	
 		#intro p
 		{
@@ -971,16 +977,26 @@
 			font-weight: 100;
 		}
 
+        .homepage #intro header
+        {
+            margin-bottom: 1em;
+        }
+
 		#intro header
 		{
-            margin-bottom: 1em;
+            margin-bottom: 3em;
 		}
 	
-			#intro header h2
+			.homepage #intro header h2
 			{
 				color: #43485E;
                 font-weight: 400;
 			}
+
+            #intro header h2
+            {
+                color: #ffcf06;
+            }
 
 		#intro .content
 		{
