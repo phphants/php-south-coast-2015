@@ -804,8 +804,8 @@
 	#banner
 	{
 		position: relative;
-		padding: 3em 0 1em 0;
-		background: #333 url(../images/venue-blurry-bg.jpeg) no-repeat center;
+		padding: 4em 0 4em 0;
+		background: #333 url(../images/stones.jpg) no-repeat center;
 		background-size: cover;
 		text-align: center;
 		color: #fff;
