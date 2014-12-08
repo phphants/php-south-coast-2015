@@ -832,7 +832,7 @@
 			#banner header h2
 			{
 				font-size: 3.5em;
-				font-weight: 100;
+				font-weight: 400;
 				color: #fff;
 			}
 		
@@ -840,7 +840,7 @@
 			{
 				margin-top: 0.50em;
 				font-size: 1.5em;
-				font-weight: 100;
+				font-weight: 300;
 			}
                 #banner header .byline strong
                 {
