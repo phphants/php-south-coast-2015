@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+		<meta name="viewport" content="width=device-width">
+		<meta name="description" content="{{ site.description }}">
+		<meta name="keywords" content="{{ site.keywords }}" />
+		<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="/js/jquery.min.js"></script>
+		<script src="/js/jquery.dropotron.min.js"></script>
+		<script src="/js/skel.min.js"></script>
+		<script src="/js/skel-layers.min.js"></script>
+		<script src="/js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="/css/skel.css" />
+			<link rel="stylesheet" href="/css/style.css" />
+			<link rel="stylesheet" href="/css/style-wide.css" />
+		</noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+	</head>
+	<body class="{{page.body_class}}">
+
+		<!-- Header -->
+			<div id="header">
+				<div>
+						
+					<!-- Logo -->
+						<div id="logo">
+							<h1><a href="/"><img src="/images/header-logo.png" alt="PHP South Coast 2015" /></a></h1>
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								{% assign pages = site.pages | sort:"order" %}
+								{% for node in pages %}
+									{% if page.url == node.url %}
+										<li class="current_page_item"><a href="{{node.url}}">{{node.title}}</a></li>
+									{% else %}
+										<li><a href="{{node.url}}">{{node.title}}</a></li>
+									{% endif %}
+								{% endfor %}
+								<li><a href="http://cfp.phpsouthcoast.co.uk" target="_blank">Call for Papers</a></li>
+							</ul>
+						</nav>
+
+				</div>
+			</div>

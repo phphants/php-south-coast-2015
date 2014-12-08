@@ -1,25 +1,91 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>PHP South Coast Conference 2015</title>
-  </head>
+---
+title: Home
+body_class: homepage
+order: 1
+---
 
-  <body>
-    <header>
-      <h1>PHP South Coast Conference 2015</h1>
-      <h2>A conference by the sea</h2>
-    </header>
+{% include header.html %}
+			
+		<!-- Banner -->
 
-    <section id="main_content">
-      <h3>Save the date...</h3>
-      <p>The conference will be held on 18th July 2015, in the Portsmouth Historic Dockyard.</p>
-      <p>More information to follow soon!</p>
-    </section>
+            <div id="banner">
+                <div class="container">
+                    <section>
+                        <header>
+                            <h2>Saturday 18th July 2015</h2>
+                            <span class="byline">A community conference by the sea</span>
+                        </header>
+                    </section>
+                </div>
+            </div>
+			
+		<!-- Intro -->
+			<div id="intro">
+				<div class="container">
+                    <div class="row">
+                        <section class="6u">
+                            <span class="image">
+                                <img id="venue" src="images/action-stations-600.jpg" alt="Action Stations, Portsmouth">
+                            </span>
+                        </section>
+                        <section class="6u">
 
-    <footer>
-      <a href="http://phphants.co.uk/">PHP Hampshire</a> |
-      <a href="http://www.phpdorset.co.uk/">PHP Dorset</a> |
-      <a href="http://brightonphp.org/">BrightonPHP</a>
-    </footer>
-  </body>
-</html>
+                            <header>
+                                <h2>When?</h2>
+                            </header>
+                            <div class="content">
+                                <p>
+                                    Saturday 18th July 2015 <br>
+                                    Registration opens from 8 am
+                                </p>
+                            </div>
+                            <header>
+                                <h2>Where?</h2>
+                            </header>
+                            <div class="content">
+                                <p>
+                                    Action Stations, Boathouse Number 6, Portsmouth Historic Dockyard
+                                </p>
+                            </div>
+                        </section>
+                    </div>
+				</div>
+			</div>
+
+		<!-- Main -->
+			<div id="main">
+				<div class="container">
+
+                    <header>
+                        <h2>Run by the community</h2>
+                    </header>
+
+                    <!-- Row #1 -->
+						<ul class="featured">
+							<li>
+                                <a href="http://phphants.co.uk/">
+                                    <img src="images/php-hampshire.png" alt="PHP Hampshire logo" />
+                                </a>
+								<h3><a href="http://phphants.co.uk/">PHP Hampshire</a></h3>
+								<p>PHP Hampshire meet every 2nd Wednesday of the month at Oasis the venue in Portsmouth.</p>
+							</li>
+							<li>
+                                <a href="http://www.phpdorset.co.uk/">
+                                    <img src="images/php-dorset.png" alt="PHP Dorset logo" />
+                                </a>
+								<h3><a href="http://www.phpdorset.co.uk/">PHP Dorset</a></h3>
+								<p>PHP Dorset meet every 1st Monday of the month at Westbourne Library in Bournemouth.</p>
+							</li>
+							<li>
+                                <a href="http://brightonphp.org/">
+                                    <img src="images/brighton-php.png" alt="BrightonPHP logo" />
+                                </a>
+								<h3><a href="http://brightonphp.org/">BrightonPHP</a></h3>
+								<p>BrightonPHP meet every 3rd Monday of the month at The Skiff in Brighton.</p>
+							</li>
+						</ul>
+				
+				</div>
+			</div>
+
+{% include footer.html %}

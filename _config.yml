@@ -1,0 +1,10 @@
+# Site settings
+title: PHP South Coast Conference 2015
+description: "Join us for a PHP Conference on the south coast in Summer 2015!"
+keywords: "PHP, Conference, South coast, Hampshire, Portsmouth, England"
+baseurl: ""
+url: "http://2015.phpsouthcoast.co.uk/"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
