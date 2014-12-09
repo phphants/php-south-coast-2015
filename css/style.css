@@ -860,7 +860,19 @@
 		{
 			position: relative;
 			z-index: 1;
+            background-color: rgba(255,207,6, 1);
+            font-weight: 800;
+            color: #43485e !important;
+            font-size: 2.4em;
+            line-height: 1.2em;
+            border-color: rgb(255,207,6);
 		}
+
+        #banner .button:hover {
+            background-color: rgba(255,207,6, 1);
+            color: #5b6780 !important;
+            border-color: white;
+        }
 
 /*********************************************************************************/
 /* Main                                                                          */
