@@ -377,7 +377,11 @@
 
         ul.styled {
             list-style-type: disc;
+            list-style-position: inside;
         }
+            ul.styled li {
+                padding-left: 20px;
+            }
 
 	/* Forms */
 
@@ -1140,4 +1144,10 @@ body.sponsors .bronze
 	background-color: #CD7F32;
 	padding: 5em 0 4em 0;
 	color: white;
+}
+
+body.information .googlemap
+{
+    width: 100%;
+    height: 360px;
 }
