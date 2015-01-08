@@ -1148,16 +1148,20 @@ body.sponsors .bronze
 body.sponsors .image
 {
 	background: white;
-	padding: 5px;
+	padding: 10px;
 }
-body.sponsors .gold .image,
+body.sponsors .gold .image
+{
+	height: 205px;
+}
 body.sponsors .silver .image,
 body.sponsors .bronze .image
 {
-	width: 190px;
-	height: 190px;
+	width: 205px;
+	height: 205px;
 }
-body.sponsors .image img
+body.sponsors .silver .image img,
+body.sponsors .bronze .image img
 {
 	height: 100%;
 	width: auto;
