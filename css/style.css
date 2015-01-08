@@ -1145,6 +1145,25 @@ body.sponsors .bronze
 	padding: 5em 0 4em 0;
 	color: white;
 }
+body.sponsors .image
+{
+	background: white;
+	text-align: auto;
+	padding: 5px;
+}
+body.sponsors .gold .image,
+body.sponsors .silver .image,
+body.sponsors .bronze .image
+{
+	width: 190px;
+	height: 190px;
+}
+body.sponsors .image img
+{
+	height: 100%;
+	width: auto;
+	margin: auto;
+}
 
 body.information .googlemap
 {
