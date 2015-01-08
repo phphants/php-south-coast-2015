@@ -1125,25 +1125,22 @@ body.sponsors #intro
 body.sponsors .platinum
 {
 	background-color: #E5E4E2;
-	padding: 5em 0 4em 0;
+	margin: 5em 0 4em 0;
 }
 body.sponsors .gold
 {
 	background-color: #D4AF37;
-	padding: 5em 0 4em 0;
-	color: white;
+	margin: 5em 0 4em 0;
 }
 body.sponsors .silver
 {
 	background-color: #C0C0C0;
-	padding: 5em 0 4em 0;
-	color: white;
+	margin: 5em 0 4em 0;
 }
 body.sponsors .bronze
 {
 	background-color: #CD7F32;
-	padding: 5em 0 4em 0;
-	color: white;
+	margin: 5em 0 4em 0;
 }
 body.sponsors .image
 {
