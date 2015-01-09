@@ -1164,6 +1164,23 @@ body.sponsors .gold .\36 u
 {
 	text-align: center;
 }
+body.sponsors .gold .placeholder
+{
+	height: 250px;
+	width: 250px;
+	line-height: 235px;
+}
+body.sponsors .placeholder
+{
+	font-size: 50px;
+	font-weight: bold;
+	text-transform: uppercase;
+	border: 1px solid #ccc;
+	text-align: center;
+	vertical-align: middle;
+	display: inline-block;
+	line-height: 190px;
+}
 
 
 body.information .googlemap
