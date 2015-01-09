@@ -1122,22 +1122,22 @@ body.sponsors #intro
 {
 	text-align: center;
 }
-body.sponsors .platinum
+body.sponsors .platinum-header
 {
 	background-color: #E5E4E2;
 	margin: 5em 0 4em 0;
 }
-body.sponsors .gold
+body.sponsors .gold-header
 {
 	background-color: #D4AF37;
 	margin: 5em 0 4em 0;
 }
-body.sponsors .silver
+body.sponsors .silver-header
 {
 	background-color: #C0C0C0;
 	margin: 5em 0 4em 0;
 }
-body.sponsors .bronze
+body.sponsors .bronze-header
 {
 	background-color: #CD7F32;
 	margin: 5em 0 4em 0;
