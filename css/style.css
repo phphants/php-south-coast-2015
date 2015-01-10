@@ -1122,29 +1122,66 @@ body.sponsors #intro
 {
 	text-align: center;
 }
-body.sponsors .platinum
+body.sponsors .platinum-header
 {
 	background-color: #E5E4E2;
-	padding: 5em 0 4em 0;
+	margin: 5em 0 4em 0;
 }
-body.sponsors .gold
+body.sponsors .gold-header
 {
 	background-color: #D4AF37;
-	padding: 5em 0 4em 0;
-	color: white;
+	margin: 5em 0 4em 0;
 }
-body.sponsors .silver
+body.sponsors .silver-header
 {
 	background-color: #C0C0C0;
-	padding: 5em 0 4em 0;
-	color: white;
+	margin: 5em 0 4em 0;
 }
-body.sponsors .bronze
+body.sponsors .bronze-header
 {
 	background-color: #CD7F32;
-	padding: 5em 0 4em 0;
-	color: white;
+	margin: 5em 0 4em 0;
 }
+body.sponsors .image
+{
+	background: white;
+	padding: 10px;
+}
+body.sponsors .silver .image,
+body.sponsors .bronze .image
+{
+	width: 205px;
+	height: 205px;
+}
+body.sponsors .silver .image img,
+body.sponsors .bronze .image img
+{
+	height: 100%;
+	width: auto;
+	margin: auto;
+}
+body.sponsors .gold .\36 u
+{
+	text-align: center;
+}
+body.sponsors .gold .placeholder
+{
+	height: 250px;
+	width: 250px;
+	line-height: 235px;
+}
+body.sponsors .placeholder
+{
+	font-size: 50px;
+	font-weight: bold;
+	text-transform: uppercase;
+	border: 1px solid #ccc;
+	text-align: center;
+	vertical-align: middle;
+	display: inline-block;
+	line-height: 190px;
+}
+
 
 body.information .googlemap
 {
