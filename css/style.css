@@ -1142,6 +1142,10 @@ body.sponsors .bronze-header
 	background-color: #CD7F32;
 	margin: 5em 0 4em 0;
 }
+body.sponsors .community-partners
+{
+	margin: 5em 0 4em 0;
+}
 body.sponsors .image
 {
 	background: white;
@@ -1159,6 +1163,16 @@ body.sponsors .bronze .image img
 	height: 100%;
 	width: auto;
 	margin: auto;
+}
+body.sponsors .community-partners .image
+{
+	line-height: 150px;
+	height: 150px;
+	width: 150px;
+}
+body.sponsors .community-partners .image img
+{
+	vertical-align: middle;
 }
 body.sponsors .gold .\36 u
 {
