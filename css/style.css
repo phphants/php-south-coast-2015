@@ -1164,15 +1164,21 @@ body.sponsors .bronze .image img
 	width: auto;
 	margin: auto;
 }
+body.sponsors #main .community-partners h3
+{
+	padding-bottom: .5em;
+}
 body.sponsors .community-partners .image
 {
 	line-height: 150px;
 	height: 150px;
 	width: 150px;
+	padding: 0;
 }
 body.sponsors .community-partners .image img
 {
 	vertical-align: middle;
+	display: inline;
 }
 body.sponsors .gold .\36 u
 {
