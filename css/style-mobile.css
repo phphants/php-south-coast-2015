@@ -382,16 +382,3 @@
 	{
         margin: 0 !important;
 	}
-
-/*********************************************************************************/
-/* Sponsors                                                                      */
-/*********************************************************************************/
-body.sponsors .container
-{
-	text-align: center;
-}
-body.sponsors .community-partners .image
-{
-	line-height: normal;
-	height: auto;
-}

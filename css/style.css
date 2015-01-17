@@ -1151,13 +1151,17 @@ body.sponsors .image
 	background: white;
 	padding: 10px;
 }
-body.sponsors .silver .image,
+body.sponsors .silver .image
+{
+	width: 100%;
+	max-width: 370px;
+	height: 300px;
+}
 body.sponsors .bronze .image
 {
 	width: 205px;
 	height: 205px;
 }
-body.sponsors .silver .image img,
 body.sponsors .bronze .image img
 {
 	height: 100%;
@@ -1184,7 +1188,8 @@ body.sponsors .gold .\36 u
 {
 	text-align: center;
 }
-body.sponsors .gold .placeholder
+body.sponsors .gold .placeholder,
+body.sponsors .silver .placeholder
 {
 	height: 250px;
 	width: 250px;

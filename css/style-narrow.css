@@ -80,3 +80,21 @@
         {
             height: 30px;
         }
+
+/*********************************************************************************/
+/* Sponsors                                                                      */
+/*********************************************************************************/
+body.sponsors .container
+{
+	text-align: center;
+}
+body.sponsors .silver .image
+{
+	max-width: 370px;
+	height: auto;
+}
+body.sponsors .community-partners .image
+{
+	line-height: normal;
+	height: auto;
+}
