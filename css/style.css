@@ -1151,6 +1151,10 @@ body.sponsors .image
 	background: white;
 	padding: 10px;
 }
+body.sponsors .gold .image
+{
+	height: 180px;
+}
 body.sponsors .silver .image
 {
 	width: 100%;
