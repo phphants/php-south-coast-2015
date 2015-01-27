@@ -1217,3 +1217,10 @@ body.information .googlemap
     width: 100%;
     height: 360px;
 }
+
+body.schedule table tr td.talk
+{
+	background-color: #7C9CD0;
+	color: white;
+	border: 3px solid #F4F4F4;
+}
