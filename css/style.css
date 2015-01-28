@@ -1224,3 +1224,13 @@ body.schedule table tr td.talk
 	color: white;
 	border: 3px solid #F4F4F4;
 }
+body.schedule table th,
+body.schedule table td {
+	width: 40%;
+}
+body.schedule table > tbody > tr > td:first-child,
+body.schedule table > thead > tr > th:first-child
+{
+	width: 20%;
+	text-align: center;
+}
