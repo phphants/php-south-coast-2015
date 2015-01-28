@@ -1239,3 +1239,7 @@ body.schedule table > thead > tr > th:first-child
 	width: 20%;
 	text-align: center;
 }
+body.schedule table td.talk.track2
+{
+	background-color: #5b6780;
+}
