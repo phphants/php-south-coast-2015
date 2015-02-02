@@ -37,7 +37,7 @@
 		<!-- Header -->
 			<div id="header">
 				<div>
-						
+
 					<!-- Logo -->
 						<div id="logo">
 							<h1><a href="/"><img src="/images/header-logo.png" alt="PHP South Coast 2015" /></a></h1>
@@ -48,10 +48,12 @@
 							<ul>
 								{% assign pages = site.pages | sort:"order" %}
 								{% for node in pages %}
-									{% if page.url == node.url %}
-										<li class="current_page_item"><a href="{{node.url}}">{{node.title}}</a></li>
-									{% else %}
-										<li><a href="{{node.url}}">{{node.title}}</a></li>
+									{% if node.menu == 'main' %}
+										{% if page.url == node.url %}
+											<li class="current_page_item"><a href="{{node.url}}">{{node.title}}</a></li>
+										{% else %}
+											<li><a href="{{node.url}}">{{node.title}}</a></li>
+										{% endif %}
 									{% endif %}
 								{% endfor %}
 							</ul>
