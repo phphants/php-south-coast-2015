@@ -1,0 +1,33 @@
+
+<!-- Main -->
+<div id="main">
+    <div class="container">
+
+        <!-- Content -->
+        <div class="row">
+            <div id="content" class="12u">
+                <article>
+                    <header>
+                        <h2>Speaker : {{ page.title }}</h2>
+                    </header>
+                    <img src="{{ page.avatar }}" alt="{{ page.title }}" class="speaker-avatar" />
+                    <p>{{ page.bio | newline_to_br}}</p>
+                    <br class="clear" />
+
+                    <h1><strong>Talk : {{ page.talk_title }}</strong></h1>
+                    <p>{{ page.talk_abstract | newline_to_br}}</p>
+
+                    {% if page.has_talk2 %}
+                        <h1><strong>Talk : {{ page.talk_title2 }}</strong></h1>
+                        <p>{{ page.talk_abstract2 | newline_to_br}}</p>
+                    {% endif %}
+
+                    <hr />
+
+                    <a href="/schedule/">Back to the schedule &raquo;</a>
+                </article>
+            </div>
+        </div>
+
+    </div>
+</div><!-- /#main -->
