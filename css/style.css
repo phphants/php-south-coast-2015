@@ -1154,12 +1154,19 @@ body.sponsors .image
 body.sponsors .gold .image
 {
 	height: 180px;
+	max-width: 475px;
 }
 body.sponsors .silver .image
 {
 	width: 100%;
 	max-width: 370px;
 	height: 300px;
+	line-height: 200px;
+}
+body.sponsors .silver .image img
+{
+	vertical-align: middle;
+	display: inline;
 }
 body.sponsors .bronze .image
 {
