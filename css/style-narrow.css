@@ -96,9 +96,17 @@ body.sponsors .silver .image
 {
 	max-width: 370px;
 	height: auto;
+	line-height: normal;
 }
 body.sponsors .community-partners .image
 {
 	line-height: normal;
 	height: auto;
+}
+body.sponsors .gold .placeholder,
+body.sponsors .silver .placeholder
+{
+	height: 250px;
+	width: 250px;
+	line-height: 235px;
 }
