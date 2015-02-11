@@ -15,10 +15,12 @@
                     <br class="clear" />
 
                     <h1><strong>Talk : {{ page.talk_title }}</strong></h1>
+                    <p>Joind.in: <a title="Use this link to give feedback" href="{{ page.joindin }}">{{ page.joindin }}</a></p>
                     <p>{{ page.talk_abstract | newline_to_br}}</p>
 
                     {% if page.has_talk2 %}
                         <h1><strong>Talk : {{ page.talk_title2 }}</strong></h1>
+                        <p>Joind.in: <a title="Use this link to give feedback" href="{{ page.joindin2 }}">{{ page.joindin2 }}</a></p>
                         <p>{{ page.talk_abstract2 | newline_to_br}}</p>
                     {% endif %}
 
