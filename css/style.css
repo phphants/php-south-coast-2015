@@ -1179,6 +1179,8 @@ body.sponsors .bronze .image img
 	width: auto;
 	display: inline-block;
 	vertical-align: middle;
+	max-height: 100%;
+	max-width: 100%;
 }
 body.sponsors #main .community-partners h3
 {
