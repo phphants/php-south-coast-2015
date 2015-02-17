@@ -1172,12 +1172,13 @@ body.sponsors .bronze .image
 {
 	width: 205px;
 	height: 205px;
+	line-height: 200px;
 }
 body.sponsors .bronze .image img
 {
-	height: 100%;
 	width: auto;
-	margin: auto;
+	display: inline-block;
+	vertical-align: middle;
 }
 body.sponsors #main .community-partners h3
 {
