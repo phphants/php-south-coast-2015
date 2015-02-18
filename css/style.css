@@ -1142,10 +1142,12 @@ body.sponsors .bronze-header
 	background-color: #CD7F32;
 	margin: 5em 0 4em 0;
 }
-body.sponsors .community-partners
+body.sponsors .other-header
 {
-	margin: 5em 0 4em 0;
+	background-color: #f5f5f5;
+	margin: 4em 0 1em 0;
 }
+
 body.sponsors .image
 {
 	background: white;
@@ -1172,12 +1174,15 @@ body.sponsors .bronze .image
 {
 	width: 205px;
 	height: 205px;
+	line-height: 200px;
 }
 body.sponsors .bronze .image img
 {
-	height: 100%;
 	width: auto;
-	margin: auto;
+	display: inline-block;
+	vertical-align: middle;
+	max-height: 100%;
+	max-width: 100%;
 }
 body.sponsors #main .community-partners h3
 {

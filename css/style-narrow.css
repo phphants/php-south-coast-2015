@@ -98,11 +98,6 @@ body.sponsors .silver .image
 	height: auto;
 	line-height: normal;
 }
-body.sponsors .community-partners .image
-{
-	line-height: normal;
-	height: auto;
-}
 body.sponsors .gold .placeholder,
 body.sponsors .silver .placeholder
 {
