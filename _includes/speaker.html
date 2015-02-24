@@ -12,6 +12,13 @@
                     </header>
                     <img src="{{ page.avatar }}" alt="{{ page.title }}" class="speaker-avatar" />
                     <p>{{ page.bio | newline_to_br}}</p>
+
+                    {% if page.twitter %}
+                        <p>
+                            <i class="fa fa-twitter"></i>
+                            <a href="https://twitter.com/{{ page.twitter }}">@{{ page.twitter }}</a>
+                        </p>
+                    {% endif %}
                     <br class="clear" />
 
                     <h1><strong>Talk : {{ page.talk_title }}</strong></h1>
