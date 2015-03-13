@@ -1175,6 +1175,7 @@ body.sponsors .bronze .image
 	width: 205px;
 	height: 205px;
 	line-height: 200px;
+	text-align: center;
 }
 body.sponsors .bronze .image img
 {
