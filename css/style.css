@@ -1185,6 +1185,15 @@ body.sponsors .bronze .image img
 	max-height: 100%;
 	max-width: 100%;
 }
+body.sponsors div.social .image
+{
+	line-height: 200px;
+}
+body.sponsors div.social .image img
+{
+	vertical-align: middle;
+	display: inline-block;
+}
 body.sponsors #main .community-partners h3
 {
 	padding-bottom: .5em;
