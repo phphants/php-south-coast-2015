@@ -633,8 +633,12 @@
 
 	#header
 	{
-		position: relative;
+		position: fixed;
+		top: 0;
 		padding: 1em 1.5em 1em 1.5em;
+		width: 100%;
+		z-index: 10000;
+		background-color: #43485e;
 	}
 
 		#header .container
