@@ -1095,7 +1095,8 @@
 	#footer
 	{
 		position: relative;
-		padding: 0em 0em 4em 0em;
+		padding: 0em 0em 2em 0em;
+		margin: 0 !important;
 	}
 
 		#footer header
