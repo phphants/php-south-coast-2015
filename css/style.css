@@ -1246,6 +1246,10 @@ body.schedule table tr td.talk
 	color: white;
 	border: 3px solid #F4F4F4;
 }
+body.schedule table tr td.talk.social
+{
+    background-color: #509c64;
+}
 body.schedule table tr td.talk .talk-heading
 {
 	font-weight: 400;
@@ -1268,6 +1272,21 @@ body.schedule table > thead > tr > th:first-child
 body.schedule table td.talk.track2
 {
 	background-color: #5b6780;
+}
+
+body.schedule table tr td.talk.social div.talk-heading
+{
+    text-decoration: underline;
+}
+
+body.schedule table tr td.talk.social div.social-activity
+{
+    font-size: 20px;
+    font-weight: 400;
+}
+body.schedule table tr td.talk.social div.social-activity a
+{
+    color: white;
 }
 
 body.speaker img.speaker-avatar
