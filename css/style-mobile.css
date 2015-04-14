@@ -240,6 +240,7 @@
     #logo a img
     {
         height: 15px;
+        width: inherit;
     }
 	
 	#nav
