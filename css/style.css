@@ -28,7 +28,7 @@
 
 	h1,h2,h3,h4,h5,h6
 	{
-		font-weight: 300;
+		font-weight: 400;
 		color: #43485E;
 	}
 
@@ -991,7 +991,14 @@
 			line-height: 1.8em;
 			font-size: 1.1em;
 			font-weight: 100;
+			color: black;
 		}
+
+        #intro p a
+        {
+            color: #43485e;
+            font-weight: bold;
+        }
 
         .homepage #intro header
         {
