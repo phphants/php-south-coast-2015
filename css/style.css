@@ -1281,19 +1281,16 @@ body.schedule table td.talk.track2
 	background-color: #5b6780;
 }
 
-body.schedule table tr td.talk.social div.talk-heading
-{
-    text-decoration: underline;
-}
-
 body.schedule table tr td.talk.social div.social-activity
 {
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 800;
+    font-style: italic;
 }
 body.schedule table tr td.talk.social div.social-activity a
 {
     color: white;
+    font-style: italic;
 }
 
 body.speaker img.speaker-avatar
