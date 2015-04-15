@@ -240,6 +240,7 @@
     #logo a img
     {
         height: 15px;
+        width: inherit;
     }
 	
 	#nav
@@ -253,7 +254,7 @@
 
 	#banner
 	{
-		padding: 3em 0em 3em 0em;
+		padding: 6em 0em 3em 0em;
 	}
 	
 		#banner header
@@ -291,7 +292,7 @@
 
 	#main
 	{
-		padding: 3em 0em 2em 0em;
+		padding: 7em 0em 2em 0em;
 	}
 
 		.homepage #main
@@ -372,13 +373,4 @@
 	#contact
 	{
 		padding: 4em 0em 4em 0em;
-	}
-
-/*********************************************************************************/
-/* Footer                                                                        */
-/*********************************************************************************/
-
-	#footer
-	{
-        margin: 0 !important;
 	}

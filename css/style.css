@@ -633,13 +633,25 @@
 
 	#header
 	{
-		position: relative;
+		position: fixed;
+		top: 0;
 		padding: 1em 1.5em 1em 1.5em;
+		width: 100%;
+		z-index: 10000;
+		background-color: #43485e;
 	}
 
 		#header .container
 		{
 			position: relative;
+		}
+
+		#header .button
+		{
+			background-color: rgba(255,207,6, 1);
+			color: #43485e !important;
+			border: none;
+			margin-left: 0.5em;
 		}
 
 /*********************************************************************************/
@@ -699,8 +711,7 @@
 				#nav > ul > li > span
 				{
 					display: block;
-					margin-left: 0.7em;
-					padding: 0.20em 1.2em;
+					padding: 0.20em 1em;
 					letter-spacing: 0.06em;
 					text-decoration: none;
 					font-weight: 300;
@@ -885,7 +896,7 @@
 	#main
 	{
 		position: relative;
-		padding: 5em 0em 5em 0em;
+		padding: 9em 0em 5em 0em;
 		background: #fff;
 	}
 
@@ -1084,7 +1095,8 @@
 	#footer
 	{
 		position: relative;
-		padding: 0em 0em 4em 0em;
+		padding: 0em 0em 2em 0em;
+		margin: 0 !important;
 	}
 
 		#footer header
