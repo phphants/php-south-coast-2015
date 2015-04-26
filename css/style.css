@@ -1174,7 +1174,7 @@ body.sponsors .image
 }
 body.sponsors .gold .image
 {
-	height: 180px;
+	min-height: 180px;
 	max-width: 475px;
 }
 body.sponsors .silver .image
