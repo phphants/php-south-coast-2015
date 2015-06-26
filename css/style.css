@@ -1312,3 +1312,7 @@ body.speaker img.speaker-avatar
 	margin-bottom: 20px;
 	width: 200px;
 }
+.standout {
+	font-weight: bold;
+	text-shadow: 1px 1px 0 black;
+}
