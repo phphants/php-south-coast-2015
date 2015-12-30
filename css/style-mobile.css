@@ -142,6 +142,7 @@
 	#titleBar
 	{
 		background: none;
+		margin-top: 32px;
 	}
 
 		#titleBar .title
@@ -226,9 +227,14 @@
 /* Header                                                                        */
 /*********************************************************************************/
 
-	#header
+	#header .header-content
 	{
 		padding: 0;
+	}
+
+	#header .infobar
+	{
+		max-height: 32px;
 	}
 
 	#logo
@@ -254,7 +260,7 @@
 
 	#banner
 	{
-		padding: 6em 0em 3em 0em;
+		padding: 9em 0em 3em 0em;
 	}
 	
 		#banner header
@@ -292,7 +298,7 @@
 
 	#main
 	{
-		padding: 7em 0em 2em 0em;
+		padding: 10em 0em 2em 0em;
 	}
 
 		.homepage #main
@@ -374,3 +380,8 @@
 	{
 		padding: 4em 0em 4em 0em;
 	}
+
+.hide-mobile
+{
+	display: none;
+}

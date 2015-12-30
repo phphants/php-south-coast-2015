@@ -635,24 +635,37 @@
 	{
 		position: fixed;
 		top: 0;
-		padding: 1em 1.5em 1em 1.5em;
 		width: 100%;
 		z-index: 10000;
-		background-color: #43485e;
 	}
 
-		#header .container
-		{
-			position: relative;
-		}
+	#header .header-content
+	{
+		padding: 1em 1.5em 1em 1.5em;
+		background-color: #43485e;
+		position: relative;
+		overflow: auto;
+	}
 
-		#header .button
-		{
-			background-color: rgba(255,207,6, 1);
-			color: #43485e !important;
-			border: none;
-			margin-left: 0.5em;
-		}
+	#header .button
+	{
+		background-color: rgba(255,207,6, 1);
+		color: #43485e !important;
+		border: none;
+		margin-left: 0.5em;
+	}
+
+	#header .infobar
+	{
+		padding: .2em 1em;
+		background-color: rgba(255,207,6, 1);
+		text-align: center;
+	}
+
+	#header .infobar a
+	{
+		color: #43485e;
+	}
 
 /*********************************************************************************/
 /* Logo                                                                          */
@@ -819,7 +832,7 @@
 	#banner
 	{
 		position: relative;
-		padding: 9em 0 8em 0;
+		padding: 12em 0 8em 0;
 		background: #333 url(../images/stones.jpg) no-repeat center;
 		background-size: cover;
 		text-align: center;
@@ -896,7 +909,7 @@
 	#main
 	{
 		position: relative;
-		padding: 9em 0em 5em 0em;
+		padding: 11em 0em 5em 0em;
 		background: #fff;
 	}
 
